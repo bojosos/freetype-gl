@@ -21,7 +21,6 @@ project "freetype-gl"
 		"platform.c",
 		"platform.h",
 		"utf8-utils.h",
-		"opengl.h",
 		"utf8-utils.c",
 		"distance-field.c",
 		"distance-field.h",
@@ -36,8 +35,9 @@ project "freetype-gl"
 	
     defines
     {
-		"_CRT_NONSTDC_NO_DEPRECATE",
-        "_CRT_SECURE_NO_WARNINGS"
+		  "_CRT_NONSTDC_NO_DEPRECATE",
+      "_CRT_SECURE_NO_WARNINGS",
+      "GL_WITH_GLAD"
     }
     
    filter "configurations:Debug"
