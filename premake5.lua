@@ -18,6 +18,7 @@ project "freetype-gl"
 		"vector.c",
 		"vector.h",
 		"freetype-gl.h",
+    "opengl.h",
 		"platform.c",
 		"platform.h",
 		"utf8-utils.h",
